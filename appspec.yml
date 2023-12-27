@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/app/react
+    destination: /var/www/app/react/portal
 hooks:
   # During the BeforeInstall deployment lifecycle event, run the commands
   #   in the script specified in "location".

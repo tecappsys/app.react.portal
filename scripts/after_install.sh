@@ -1,5 +1,5 @@
 echo ..............................Change directory...
-cd /var/www/app/react
+cd /var/www/app/react/portal
 
 echo ..............................Install dependencies Package...
 npm install --legacy-peer-deps --verbose
