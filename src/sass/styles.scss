@@ -1,6 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
 @import "fonts";
+@import "spinner";
+
+:root{
+--body-background:white;
+--body-color:black;
+--link-color:navy;
+}
+
+[data-theme="dark"]{
+    --body-background:#282c34;
+    --body-color:white;
+    --link-color:cyan;
+}
+
+// *{
+//     transition: all 0.3s ease-in-out;
+// }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Rubik, "Helvetica Neue", sans-serif; }
-
+body { margin: 0; font-family: Rubik, "Helvetica Neue", sans-serif !important; }

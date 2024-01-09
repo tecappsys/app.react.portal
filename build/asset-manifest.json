@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.90b17358.css",
-    "main.js": "/static/js/main.e7495308.js",
+    "main.css": "/static/css/main.e2dcfedd.css",
+    "main.js": "/static/js/main.c8e6eb54.js",
     "static/js/787.ed5b7f78.chunk.js": "/static/js/787.ed5b7f78.chunk.js",
     "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
     "static/media/Rubik-Medium.ttf": "/static/media/Rubik-Medium.0e121b4fa4d6e9bc5c69.ttf",
@@ -13,14 +13,14 @@
     "static/media/Rubik-Light.ttf": "/static/media/Rubik-Light.9d2ccd264dc61b954019.ttf",
     "static/media/Rubik-Italic.ttf": "/static/media/Rubik-Italic.dd425b2765df0b853488.ttf",
     "static/media/Rubik-LightItalic.ttf": "/static/media/Rubik-LightItalic.eddc6610fb077c6d999f.ttf",
-    "static/media/tecappsys-logo.svg": "/static/media/tecappsys-logo.33f9d315c46a5d7619cb57d208214d5d.svg",
+    "static/media/logo.svg": "/static/media/logo.5597456d4924ce8c56ad497b35ddf375.svg",
     "index.html": "/index.html",
-    "main.90b17358.css.map": "/static/css/main.90b17358.css.map",
-    "main.e7495308.js.map": "/static/js/main.e7495308.js.map",
+    "main.e2dcfedd.css.map": "/static/css/main.e2dcfedd.css.map",
+    "main.c8e6eb54.js.map": "/static/js/main.c8e6eb54.js.map",
     "787.ed5b7f78.chunk.js.map": "/static/js/787.ed5b7f78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90b17358.css",
-    "static/js/main.e7495308.js"
+    "static/css/main.e2dcfedd.css",
+    "static/js/main.c8e6eb54.js"
   ]
 }
