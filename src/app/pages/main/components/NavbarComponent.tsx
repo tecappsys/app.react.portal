@@ -29,16 +29,19 @@ const NavbarComponent = ({onChangeDarkMode}:any) => {
     setIconDarkTheme(isDarkMode)
   }
 
+  const onClick = () =>{
+      window.location.href = 'http://tecappsys.com';
+  }
+
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" elevation={0}>
           <Toolbar style={{display:'flex',justifyContent:'space-between',minHeight:'65px'}}>
-            <div style={{display:'flex',alignItems:"center",gap:"8px"}}>
+            <div onClick={onClick} style={{display:'flex',alignItems:"center",gap:"8px", cursor:"pointer"}} >
               <SvgIcon style={{height:'48px',width:'auto'}} inheritViewBox={true} component={TecappsysIcon} />
               <span style={{fontSize:'16px',fontWeight:"400"}}>TECAPPSYS</span>
             </div>
-            
             <ButtonSwitchThemeComponent 
               changeTheme={handleChangeTheme}
               iconDarkTheme={iconDarkTheme}
