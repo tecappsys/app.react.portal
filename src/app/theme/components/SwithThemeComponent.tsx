@@ -2,7 +2,7 @@
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 
-const ThemeSelectedMaterialUIComponent = styled(Switch)(({ theme }) => ({
+const SwithThemeComponent = styled(Switch)(({ theme }) => ({
   '& .MuiSwitch-switchBase': {
     '&.Mui-checked': {
       transform: 'translateX(21px)',
@@ -43,4 +43,4 @@ const ThemeSelectedMaterialUIComponent = styled(Switch)(({ theme }) => ({
   },
 }));
 
-export default ThemeSelectedMaterialUIComponent
+export default SwithThemeComponent

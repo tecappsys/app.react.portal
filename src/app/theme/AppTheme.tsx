@@ -1,13 +1,11 @@
-import React, { useState } from 'react';
-import logo from 'assets/svg/logo.svg';
-import './App.css';
+import { ThemeProvider } from '@emotion/react';
+import { Box, Paper, createTheme } from '@mui/material';
+import { useMemo, useState } from 'react';
 import NavbarComponent from './components/NavbarComponent';
-import { Paper, ThemeProvider, createTheme} from '@mui/material';
 
-const App = () =>{
+export const AppTheme = ({ children }:any) => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
-
-  const theme = React.useMemo(
+  const theme = useMemo(
     () =>
       createTheme({
         palette: {
@@ -28,24 +26,15 @@ const App = () =>{
       }),
     [isDarkMode],
   );
-
   const handleIsDarkModeChange = (state:boolean) => {
     setIsDarkMode(state);
   };
-
   return (
-    <ThemeProvider theme={theme}>     
-          <Paper>
-            <NavbarComponent onChangeDarkMode={handleIsDarkModeChange} />
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-                React APP
-              </p>
-            </header>
-          </Paper>
+    <ThemeProvider theme={ theme }>
+      <NavbarComponent onChangeDarkMode={handleIsDarkModeChange} />  
+      <Paper sx={{ flexGrow: 1, p: 3, height: 'calc(100vh - 113px)' }}>
+        { children }
+      </Paper>   
     </ThemeProvider>
-  );
+  )
 }
-
-export default App;
