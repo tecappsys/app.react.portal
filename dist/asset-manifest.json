@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73086cf6.css",
+    "main.js": "/static/js/main.d7a07e71.js",
+    "static/js/787.ed5b7f78.chunk.js": "/static/js/787.ed5b7f78.chunk.js",
+    "static/media/Rubik-Bold.ttf": "/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
+    "static/media/Rubik-Medium.ttf": "/static/media/Rubik-Medium.0e121b4fa4d6e9bc5c69.ttf",
+    "static/media/Rubik-Black.ttf": "/static/media/Rubik-Black.a41b3ae4e67200950946.ttf",
+    "static/media/Rubik-Regular.ttf": "/static/media/Rubik-Regular.55fa11cdc8b9a3ee842f.ttf",
+    "static/media/Rubik-BoldItalic.ttf": "/static/media/Rubik-BoldItalic.8aa61adc9e2d6f955dfe.ttf",
+    "static/media/Rubik-MediumItalic.ttf": "/static/media/Rubik-MediumItalic.be80ed5dcc329afda786.ttf",
+    "static/media/Rubik-BlackItalic.ttf": "/static/media/Rubik-BlackItalic.acfb29dc2fb1e14bc1a0.ttf",
+    "static/media/Rubik-Light.ttf": "/static/media/Rubik-Light.9d2ccd264dc61b954019.ttf",
+    "static/media/Rubik-Italic.ttf": "/static/media/Rubik-Italic.dd425b2765df0b853488.ttf",
+    "static/media/Rubik-LightItalic.ttf": "/static/media/Rubik-LightItalic.eddc6610fb077c6d999f.ttf",
+    "static/media/logo.svg": "/static/media/logo.5597456d4924ce8c56ad497b35ddf375.svg",
+    "index.html": "/index.html",
+    "main.73086cf6.css.map": "/static/css/main.73086cf6.css.map",
+    "main.d7a07e71.js.map": "/static/js/main.d7a07e71.js.map",
+    "787.ed5b7f78.chunk.js.map": "/static/js/787.ed5b7f78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73086cf6.css",
+    "static/js/main.d7a07e71.js"
+  ]
+}
