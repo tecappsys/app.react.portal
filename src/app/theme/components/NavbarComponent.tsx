@@ -30,7 +30,7 @@ const NavbarComponent = ({onChangeDarkMode}:any) => {
   }
 
   const onClick = () =>{
-      window.location.href = 'http://tecappsys.com';
+      window.location.href = 'https://portfolio.tecappsys.com/';
   }
 
   return (
